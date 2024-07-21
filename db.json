@@ -1,0 +1,266 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "name": "Arrays"
+    },
+    {
+      "id": "2",
+      "name": "objects"
+    },
+    {
+      "id": "3",
+      "name": "call back functions"
+    },
+    {
+      "id": "4",
+      "name": "hoisting"
+    },
+    {
+      "id": "5",
+      "name": "array methods"
+    },
+    {
+      "id": "9097",
+      "name": "operators"
+    },
+    {
+      "id": "0762",
+      "name": "json server"
+    },
+    {
+      "id": "060b",
+      "name": "postman"
+    }
+  ],
+  "journal": [
+    {
+      "id": "1",
+      "entry": "Started learning JavaScript.",
+      "date": "2024-07-01"
+    },
+    {
+      "id": "2",
+      "entry": "Built my first HTML page.",
+      "date": "2024-07-02"
+    },
+    {
+      "id": "7d3d",
+      "entry": "css requires creativity",
+      "date": "2024-07-18"
+    },
+    {
+      "id": "1d5d",
+      "entry": "Not yet learned react but excited to",
+      "date": "2024-07-19"
+    },
+    {
+      "id": "04fd",
+      "entry": "tomorrow ill practise the push method",
+      "date": "2024-07-19"
+    },
+    {
+      "id": "2088",
+      "entry": "javascript notes",
+      "date": "2024-07-19"
+    },
+    {
+      "id": "c451",
+      "entry": "apush,shift",
+      "date": "2024-07-19"
+    },
+    {
+      "id": "c88b",
+      "entry": "arrays are awesome",
+      "date": "2024-07-21",
+      "skill": "Arrays"
+    },
+    {
+      "id": "89b7",
+      "entry": "postman is a front end kinda thing",
+      "date": "2024-07-21",
+      "skill": "postman"
+    },
+    {
+      "id": "daea",
+      "entry": "jasjdajdjjasjdj",
+      "date": "2024-07-21",
+      "skill": "javascript"
+    }
+  ],
+  "goals": [
+    {
+      "id": "1",
+      "name": "Learn React",
+      "deadline": "2024-08-01",
+      "skill": "intro to reacts"
+    },
+    {
+      "id": "2",
+      "name": "Build a portfolio website",
+      "deadline": "2024-09-01",
+      "skill": "CSS"
+    },
+    {
+      "id": "a906",
+      "name": "finish my hosting by tuesday",
+      "deadline": "2024-07-25",
+      "skill": "netlify"
+    }
+  ],
+  "problems": [
+    {
+      "id": "1",
+      "title": "Flexbox layout issue",
+      "description": "Flexbox items are not aligning properly.",
+      "solution": "Reviewed Flexbox documentation and fixed the CSS.",
+      "skill": "CSS"
+    },
+    {
+      "id": "a453",
+      "title": "arrays are difficult",
+      "description": "aaaaaaaaaaaaaaa",
+      "solution": "aaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "id": "a91a",
+      "title": "bugs",
+      "description": "banne of my excitence",
+      "solution": "debbug"
+    },
+    {
+      "id": "ebd3",
+      "title": "",
+      "description": "",
+      "solution": ""
+    },
+    {
+      "id": "b14d",
+      "title": "arrays are difficultrrrrrrrr",
+      "description": "vvvvvvvvvvvvvvvvvvv",
+      "solution": "ddddddddddd"
+    },
+    {
+      "id": "9422",
+      "title": "sss",
+      "description": "sssss",
+      "solution": "ssssss"
+    },
+    {
+      "id": "a0a6",
+      "title": "lekfklalkdsf",
+      "description": "akllalllflkasldf",
+      "solution": "dkkfalkklfkklas",
+      "skill": "netlify"
+    },
+    {
+      "id": "dcf1",
+      "title": "aklalaldlldalsdka",
+      "description": "ajjdsajdjajjjasdjajds",
+      "solution": "jjajdjajsdjjdjajds",
+      "skill": "objects"
+    }
+  ],
+  "learningPaths": [
+    {
+      "id": "1",
+      "name": "JavaScript",
+      "skills": [
+        {
+          "name": "Variables",
+          "completed": true
+        },
+        {
+          "name": "Data Types",
+          "completed": true
+        },
+        {
+          "name": "Functions",
+          "completed": true
+        },
+        {
+          "name": "Objects",
+          "completed": true
+        },
+        {
+          "name": "Arrays",
+          "completed": true
+        },
+        {
+          "name": "Loops",
+          "completed": true
+        },
+        {
+          "name": "Conditionals",
+          "completed": false
+        },
+        {
+          "name": "Events",
+          "completed": true
+        },
+        {
+          "name": "DOM Manipulation",
+          "completed": true
+        },
+        {
+          "name": "ES6 Features",
+          "completed": true
+        },
+        {
+          "name": "Promises",
+          "completed": true
+        },
+        {
+          "name": "Async/Await",
+          "completed": true
+        },
+        {
+          "name": "Error Handling",
+          "completed": true
+        },
+        {
+          "name": "APIs",
+          "completed": true
+        },
+        {
+          "name": "Fetch",
+          "completed": true
+        },
+        {
+          "name": "Classes",
+          "completed": true
+        },
+        {
+          "name": "Modules",
+          "completed": true
+        },
+        {
+          "name": "Debugging",
+          "completed": true
+        },
+        {
+          "name": "Testing",
+          "completed": true
+        },
+        {
+          "name": "Best Practices",
+          "completed": true
+        }
+      ]
+    },
+    {
+      "id": "1a3d",
+      "name": "React",
+      "skills": [
+        {
+          "name": "Introduction to react",
+          "completed": false
+        },
+        {
+          "name": "Intrduction to next gen react",
+          "completed": false
+        }
+      ]
+    }
+  ]
+}

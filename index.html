@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeQUEST</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>CodeQuest</h1>
+        <nav>
+            <ul>
+                <li> <a href="#home">Home</a></li>
+                <li><a href="#skills">Skills/Tasks</a></li>
+                <li><a href="#journal">Journal/Notes</a></li>
+                <li><a href="#goals">Goals/Deadlines</a></li>
+                <li><a href="#problems">Problems/Solutions</a></li>
+                <li><a href="#learning-path">LearnIng Paths/Projects</a></li>
+            </ul>
+        </nav>
+        <button id="toggle-mode">Dark/Light</button>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>This site features include; 
+                <br> LearningPath and Project Management
+                <br>Records logs,Notes,Tasks,Skills,Goals
+                <br>Collects Problems related to the Task or Skill being mastered and the solutions to these problems.
+            </p>
+        </section>
+        <section id="Skills">
+            <h2>Skills/Tasks</h2>
+            <form id="skill-form">
+                <input type="text" id="skill-name" placeholder="Skill Name" required>
+                <button type="submit">Add Skill/Task</button>
+            </form>
+            <details>
+              <summary><button id="my-skills">skills/Task</button></summary>
+              <div id="skill-list"> 
+                <!-- skill list are loaded here -->
+              </div>
+            </details>
+            
+        </section>
+        <section id="learning-path">
+            <h2>Learning Paths/Projects</h2>
+            <details>
+                <summary><button id="learning-paths">My learning-paths/Projects</button></summary>
+                <div id="learning-path-list">
+                <!-- load the learning paths -->
+                </div>
+            </details>
+            <p id="learning-path-progress"></p>
+            
+            <h2>Add New LearningPath/Project</h2>
+            <form id="learning-path-form">
+                <input type="text" id="path-name" placeholder="Learning Path Name" required>
+               
+                <button type="button" id="add-skill-btn">Add Skill/Task</button>
+                <div id="skills-inputs"></div>
+                <button type="submit">Create Learning Path/Project</button>
+            </form>
+            <p id="learning-path-progress"></p>
+        </section>
+        <section id="journal">
+            <h2>Journal logs/Notes</h2> 
+            <input type="date" id="filter-date" placeholder="Filter by date">
+            <form id="journal-form"> 
+                <select id="journal-skill" required>
+                    <option value="" disabled selected>Select a skill/Task</option>
+                </select>
+                <textarea id="journal-entry" placeholder="Log your notes and activity" required></textarea>
+                <button type="submit">Add Your Entry Log/Notes</button>
+            </form>
+            <details>   
+                 <summary><button id="my-journal">My Logs/Notes</button></summary>
+               <div id="Journal-list">
+                <!-- load the notes and log here -->
+               </div>
+            </details>
+        </section>
+        <section id="problems">
+            <h2>Problem and Solutions</h2>
+            <form id="problem-form">
+                <input type="text" id="problem-title" placeholder="Problem-Title" required>
+                <textarea id="problem-description" placeholder="Description" required></textarea>
+                <textarea id="problem-solution" placeholder="Solution" required></textarea>
+                <select id="problem-skill" required>
+                    <option id ='problems-skill' value="" disabled selected>Select a skill/Task</option>
+                </select>
+                <button id="problembtn" type="submit" >Add Problem and Solutions</button>
+            </form>
+            <details> <summary> <button id="my-problems" type="submit">Problems/Solutions</button></summary>
+                <div id="problem-list">  
+                <!-- problems will be loaded here -->
+            </div>
+        </details>
+           
+        </section>
+        <section id="goals">
+            <h2>Goals and Deadlines</h2>
+            <form id="goal-form" >
+                <input type="text" id="goal-name" placeholder="Goal" required>
+                <select id="goal-skill" required>
+                    <option value="" disabled selected>Select a skill/Task</option>
+                </select>
+                <input type="date" id="goal-deadline" required>
+                <button id="addgoalbtn" type="submit">Add Goal</button>
+            </form><details>
+                <summary><button id="my-goal">My Goals/Dealines</button></summary> 
+                <div id="goal-list">
+                <!-- goals will be loaded here -->
+                </div>
+            </details>     
+        </section>
+    </main>
+    <script defer src="inddeexx.js"></script>
+    <!-- <script defer src="scriptss.js"></script> -->
+</body>
+</html>
